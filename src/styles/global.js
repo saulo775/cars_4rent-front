@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
 
         --background: #0E0E0E;
         --text-color: #FFFFFF;
-        --black-overlay: #00000040;
+        --black-overlay: #00000080;
 
     }
 
