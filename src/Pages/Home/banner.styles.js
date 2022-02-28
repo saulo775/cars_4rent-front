@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
+export const Outdoor = styled.section`
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -88,7 +88,7 @@ export const ModelCar = styled.div`
     margin-top: 30vw;
     align-items: flex-end;
 
-    div {
+    span {
         min-width: 16rem;
         height: 2px;
         background-color: var(--primary);
@@ -98,22 +98,4 @@ export const ModelCar = styled.div`
     h2 {
         color: var(--text-color);
     }
-    
-
-    /* align-items: flex-end;
-    text-align: end; */
-    
-    /* span {
-        width: 300px;
-        height: 2px;
-        background-color: var(--primary);
-        margin-bottom: 2rem;
-        border-radius: 1rem;
-    }
-
-    h2 {
-        color: var(--text-color);
-        font-size: 1.25rem;
-        font-weight: 300;
-    } */
 `;
