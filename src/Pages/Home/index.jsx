@@ -15,6 +15,8 @@ import {
     GroupImage,
     GroupText,
     ButtonContact,
+    Landscapes,
+    LandscapeImage
 } from './arguments.styles.js'
 
 export function Home(){
@@ -120,6 +122,14 @@ export function Home(){
                     <Button>VER CATALOGO</Button>
                 </GroupText>
             </TableArgs>
+
+            <Landscapes>
+                <LandscapeImage Image={"https://images.unsplash.com/photo-1599522316015-cec257031c9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"}/>
+                <LandscapeImage Image={"https://images.unsplash.com/photo-1548501461-e2399cb271ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2567&q=80"}/>
+                <LandscapeImage Image={"https://images.unsplash.com/photo-1518203441944-e9578e4b1635?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80"}/>
+                <LandscapeImage Image={"https://images.unsplash.com/photo-1601784531610-cc802e1db92e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"}/>
+                <LandscapeImage Image={"https://images.unsplash.com/photo-1547234935-80c7145ec969?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80"}/>
+            </Landscapes>
 
         </Arguments>
 

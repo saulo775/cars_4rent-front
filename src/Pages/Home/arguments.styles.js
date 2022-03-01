@@ -45,7 +45,6 @@ export const GroupImage = styled.div`
     height: 30rem;
     padding-top: 3rem;
     background-image:
-        linear-gradient(var(--black-overlay), var(--black-overlay)), 
         url(${(props)=> props.Image})
     ;
     background-repeat: no-repeat;
@@ -81,4 +80,19 @@ export const ButtonContact = styled.button`
     border: none;
     border-bottom: 2px solid var(--primary);
     font-size: 1rem;
+`;
+
+export const Landscapes = styled.div`
+    flex: 1;
+    display: flex;
+    margin: 6rem 6rem 0 6rem;
+    overflow: scroll;
+`;
+
+export const LandscapeImage = styled.div`
+    background-image: url(${(props) => props.Image});
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 400px;
+    height: 250px;
 `;
