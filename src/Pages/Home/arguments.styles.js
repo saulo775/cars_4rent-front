@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Arguments = styled.section`
     background-color: red;
-    padding: 6rem 0;
+    padding: 6rem 0 3rem;
     background-color: var(--background);
 `;
 
@@ -85,7 +85,7 @@ export const ButtonContact = styled.button`
 export const Landscapes = styled.div`
     flex: 1;
     display: flex;
-    margin: 6rem 6rem 0 6rem;
+    margin-top: 6rem ;
     overflow: scroll;
 `;
 
@@ -95,4 +95,12 @@ export const LandscapeImage = styled.div`
     background-size: cover;
     min-width: 400px;
     height: 250px;
+
+    :first-child {
+        margin-left: 6rem;
+    }
+
+    :last-child {
+        margin-right: 6rem;
+    }
 `;
